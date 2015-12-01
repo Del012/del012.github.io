@@ -4,31 +4,68 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
 <title>Portfolio Website</title>
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Quicksand">
 <link rel="stylesheet" href="Tester.css"> 
+<style>
+
+body {
+        font-family: 'Quicksand', serif;
+       
+      }
+	  
+main {
+margin-bottom: 10%;
+}
+
+.floating-menu {
+font-family: sans-serif;
+background: black;
+
+padding: 5px;
+width: 1500px;
+z-index: 100;
+position: fixed;
+top: 0px;
+right: 0px;
+}
+
+.floating-menu a, 
+.floating-menu h3 {
+font-size: 0.9em;
+margin: 0 0.5em;
+color: black;
+}
+</style>
 </head>
 
 <body link = "black" background="flowers.jpg">
 	<center>
-      </br>
-        </br>
-        </br>
-        </br>
-    	<hr width = "70%" size = "3" color = "black"/>
+    
         
-        <font size="20" face="Garamond">
-    	<a href = "./portfolioWebsiteHome.html" style="text-decoration:none">
-    	{home} </a> | 
-        <a href = "./portfolioWebsiteProjects.html" style="text-decoration:none"><font face="Garamond">
-    	{projects} </font></a> |
-        <a href = "./portfolioWebsiteSkills.html" style="text-decoration:none"><font face="Garamond">
-    	{skills} </font></a> |
-        <a href = "./portfolioWebsiteAbout.html" style="text-decoration:none"><font face="Garamond">
-    	{about} </font></a> |
-       <font face="Garamond">
-       	<b>{contact}</b> </font> </font>
+    	<main>
+    <nav class="floating-menu">
+    	
      </br>
-        <hr width = "80%" size = "3" color = "black"/>
+        <font size="20" face="Quicksand" color = "white">
+    	<a href = "./portfolioWebsiteHome.html" style="text-decoration:none"><font face="Quicksand" color = "white">
+    	home </font></a>  |   
+        <a href = "./portfolioWebsiteProjects.html" style="text-decoration:none"><font face="Quicksand" color = "white">
+    	projects </font></a>  |
+         <a href = "./portfolioWebsiteSkills.html" style="text-decoration:none"><font face="Quicksand" color = "white">
+    	skills </font></a>  |
+         <a href = "./portfolioWebsiteAbout.html" style="text-decoration:none"><font face="Quicksand" color = "white">
+    	about </font></a>  | 
         
+       	<b>contact </b> </font>
+     </br>
+       </br>
+      
+    </nav>
+    </main>
+        
+        <hr width = "70%" size = "3" color = "black"/>
+        
+        <hr width = "80%" size = "3" color = "black"/>
                     
         </br>
         <div id="form-main">
@@ -92,19 +129,10 @@
         	</br>
         <hr width = "80%" size = "3" color = "black"/>
         
-        <font size="30" face="Garamond">
-    	<a href = "./portfolioWebsiteHome.html" style="text-decoration:none">
-    	{home} </a> | 
-        <a href = "./portfolioWebsiteProjects.html" style="text-decoration:none"><font face="Garamond">
-    	{projects} </font></a> |
-        <a href = "./portfolioWebsiteSkills.html" style="text-decoration:none"><font face="Garamond">
-    	{skills} </font></a> |
-        <a href = "./portfolioWebsiteAbout.html" style="text-decoration:none"><font face="Garamond">
-    	{about} </font></a> |
-        <font face="Garamond">
-       	<b>{contact}</b> </font> </font>
-     </br>
         <hr width = "70%" size = "3" color = "black"/>
+        
+        </br>
+        </br>
     </center>
 </body>
 </html>
